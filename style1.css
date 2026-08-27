@@ -1,0 +1,346 @@
+body {
+    margin: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #f0f8fa;
+    /* font-family: Georgia, serif; */
+}
+
+.navigationbar {
+    background-color: #f0f8fa;
+    /* background-color: #ecedee; */
+    overflow: hidden;
+}
+
+
+
+.navigationbar a {
+    float: left;
+    text-decoration: none;
+    padding: 20px 20px;
+    color:#11385c;
+    font-size: 25px;
+}
+
+
+.navigationbar a:hover {
+    background-color: black;
+    color: #ebeced;
+}
+
+.navigationbar a.spotlight {
+    background-color: rgb(37, 70, 234);
+    color: #ebeced;
+}
+
+
+/* index.html */
+
+.layeredImagesIndex {
+    background-image: url('indexBackgroundImage1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    overflow: auto;
+}
+
+.headimage1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    height: 600px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+
+.descriptionOfSten {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f8fa;
+}
+
+.descriptionOfStenText {
+    line-height: 1.2;
+    margin-right: auto;
+    padding: 25px;
+    text-align: left;
+}
+
+
+.descriptionOfStenImage img {
+    height: 600px;
+    width: auto;
+    border-radius: 10%;
+}
+
+.descriptionOfStenTextBody {
+    white-space: pre-wrap;
+    font-size: 20px;
+}
+
+.creditForBackroundPhoto {
+    background-color: #f0f8fa;
+}
+
+
+/* portfolio.html */
+
+
+.layeredImagesPortfolio {
+    background-image: url('portfolioBackGroundImageStyle1.avif');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    overflow: auto;
+}
+
+.portfolioHeadText {
+    font-size: 40px;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 65vh;
+    color: white;
+}
+
+.futureProject {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f8fa;
+}
+
+.futureProjectText {
+    line-height: 1.2;
+    margin-right: auto;
+    padding: 25px;
+    text-align: left;
+}
+
+
+.futureProjectImage img {
+    height: 600px;
+    width: 600px;
+    border-radius: 10%;
+}
+
+.futureProjectTextBody {
+    white-space: pre-wrap;
+    font-size: 20px;
+}
+
+
+
+.pastProject {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f8fa;
+}
+
+.pastProjectText {
+    line-height: 1.2;
+    margin-right: auto;
+    padding: 25px;
+    text-align: left;
+}
+
+.pastProjectImage img {
+    height: 600px;
+    width: 600px;
+    border-radius: 10%;
+}
+
+.pastProjectTextBody {
+    white-space: pre-wrap;
+    font-size: 20px;
+}
+
+.credToW3Schools {
+    place-items: center;
+}
+
+
+/* qualifications.html */
+
+.resume {
+    margin: 0px;
+    background-color: #f0f8fa;
+    overflow: auto;
+    display: grid;
+    place-items: center;
+}
+
+
+.technicalAreasOfInterest {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f8fa;
+}
+
+.technicalAreasOfInterestText {
+    line-height: 1.2;
+    margin-right: auto;
+    padding: 25px;
+    text-align: left;
+}
+
+
+.technicalAreasOfInterestImage img {
+    height: 600px;
+    width: 600px;
+    border-radius: 10%;
+}
+
+.technicalAreasOfInterestTextBody {
+    white-space: pre-wrap;
+    font-size: 20px;
+}
+
+.technicalAreasOfInterestTextHead {
+    font-size: 35px;
+}
+
+
+.technicalSkills {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f8fa;
+}
+
+.technicalSkillsText {
+    line-height: 1.2;
+    margin-right: auto;
+    padding: 25px;
+    text-align: left;
+}
+
+
+.technicalSkillsImage img {
+    height: 600px;
+    width: 600px;
+    border-radius: 10%;
+}
+
+.technicalSkillsTextBody {
+    white-space: pre-wrap;
+    font-size: 20px;
+}
+
+.technicalSkillsTextHead {
+    font-size: 35px;
+}
+
+
+/* 
+.interestsAndSkills {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f8fa;
+} */
+
+/* 
+.technicalAreasOfInterest {
+    display: grid;
+    background-color: #f0f8fa;
+    overflow: auto;
+    place-items: center;
+    margin: 0px;
+}
+
+.technicalAreasOfInterestText {
+    white-space: normal;
+    font-size: 20px;
+}
+
+.technicalSkills {
+    display: grid;
+    background-color: #f0f8fa;
+    overflow: auto;
+    place-items: center;
+    margin: 0;
+}
+
+.technicalSkillsText {
+    white-space: normal;
+    font-size: 20px;
+} */
+
+
+/* service.html */
+
+
+.HuntersFund {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f8fa;
+}
+
+.HuntersFundTextHead {
+    font-size: 35px;
+}
+
+.HuntersFundText {
+    line-height: 1.2;
+    margin-right: auto;
+    padding: 25px;
+    text-align: left;
+}
+
+
+.HuntersFundImage img {
+    height: 600px;
+    width: auto;
+    border-radius: 10%;
+}
+
+.HuntersFundTextBody {
+    white-space: pre-wrap;
+    font-size: 20px;
+}
+
+
+.TheHub {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f8fa;
+}
+
+.TheHubTextHead {
+    font-size: 35px;
+}
+
+.TheHubText {
+    line-height: 1.2;
+    margin-left: auto;
+    padding: 25px;
+    text-align: left;
+}
+
+.TheHubImage img {
+    height: auto;
+    width: 600px;
+    border-radius: 10%;
+}
+
+.TheHubTextBody {
+    white-space: pre-wrap;
+    font-size: 20px;
+}
+
+
